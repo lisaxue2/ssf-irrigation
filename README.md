@@ -9,17 +9,16 @@ The web app monitors soil irrigation using a Wireless Sensor Network (WSN) built
 - Inefficient water use due to irrigation being monitored with human error and low precision
 - Transmitting data on a field that lacks Wi-Fi
 
-
 **The Hardware** 
 
 The hardware component is the WSN which communicates packets of sensor data across the field and to the web server. Each node on the WSN consists of an ESP8266 development board, a solar panel powered by a lithium ion battery, and a capacitative moisture sensor if it is a Field node. 
 The nodes are subjected to 4 distinct roles:
 
-Field - multiple ESPs interfacing with a sensor and form a star topology with the Terminal to preform many-to-one message delivery
+Field - multiple ESPs interfacing with sensors and form a star topology with the Terminal to preform many-to-one packet delivery
 
 Terminal - a single ESP that receives sensor data from all Field nodes in the form of an array and delivers it to a Relay
 
-Relay - multiple ESPs that deliver packets across longer distances (150-200 m); one Relay receives data from the Terminal and delivers it to the next Relay and the data hops between every Relay until it reaches the Gateway
+Relay - multiple ESPs that deliver packets across longer distances (150-200 m); one Relay receives data from the Terminal, delivers it to the next Relay, and the data hops between every Relay until it reaches the Gateway
 
 Gateway - the final ESP in the WSN that receives data from the last Relay and delivers it to the web server
 
