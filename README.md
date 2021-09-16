@@ -9,7 +9,6 @@ The web app monitors soil irrigations using a Wireless Sensor Network(WSN) built
 - Inefficient water use due to irrigation being monitored with human error and little precision
 - Lack of Wi-Fi in the field
 
-**Design**
 
 **The Hardware** 
 
