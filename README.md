@@ -28,4 +28,4 @@ A Raspberry Pi computer hosts the Python Flask web server which receives the WSN
 
 **The Frontend** 
 
-A web page is rendered when a user makes a HTTP request to the server from a web browser. It displays visualizations of current soil moisture data in the form of Gauge charts and long-term data in the form of Line charts. These charts are implemented from Google Charts javascript code.
+A web page is rendered when a user makes a HTTP request to the server from a web browser. It displays visualizations of current soil moisture data in the form of gauge charts and long-term data in the form of line charts. These charts are implemented from Google Charts javascript code.
