@@ -2,7 +2,7 @@
 
 **Background**
 
-The web app monitors soil irrigations using a Wireless Sensor Network(WSN) built with many ESP8266s microcontrollers. The ESPs are nodes in my network that use radio communication(ESP-NOW protocol) and interface with soil sensors, gathering data on soil moisture. The user can then access and visualize the data from a web page that is built on a web server capable of receiving and storing data from the WSN and handling user requests.
+The web app monitors soil irrigation using a Wireless Sensor Network(WSN) built with many ESP8266s microcontrollers. The ESPs are nodes in my network that use radio communication(ESP-NOW protocol) and interface with soil sensors, gathering data on soil moisture. The user can then access and visualize the data from a web page that is built on a web server capable of receiving and storing data from the WSN and handling user requests.
 
 **Problems Addressed**
 
