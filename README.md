@@ -1,4 +1,4 @@
-# ### Soil Irrigation Web App
+# Soil Irrigation Web App
 
 **Background**
 
