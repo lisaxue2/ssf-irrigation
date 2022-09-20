@@ -2,7 +2,7 @@
 
 **Background**
 
-The web app monitors soil irrigation using a Wireless Sensor Network (WSN) built upon many Arduino-ESP8266 microcontrollers. The Arduino-ESPs are nodes in my network that use radio communication (ESP-NOW protocol) and interface with soil sensors gathering data on soil moisture. The user can visually monitor irrigation from a webpage that's powered by a Python Flask server capable of receiving and storing data from the WSN and handling user requests.
+Farm Flask is a web application that monitors soil irrigation using a Wireless Sensor Network (WSN) built upon many Arduino-ESP8266 microcontrollers. The Arduino-ESPs use radio communication (ESP-NOW protocol) and interface with soil sensors to gather data on soil moisture. Together they form the WSN. The user can visually monitor irrigation on the field from a webpage powered by a Python Flask server that's capable of receiving and storing data from the WSN and handling user requests.
 
 **Problems Addressed**
 
