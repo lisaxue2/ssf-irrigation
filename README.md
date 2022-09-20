@@ -1,4 +1,4 @@
-# Farm Flask: An IoT-Enabled Irrigation System for The Sustainable Student Farm
+# Farm Flask: An IoT-Enabled Irrigation System for the Sustainable Student Farm
 
 **Background**
 
