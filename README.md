@@ -1,8 +1,8 @@
-# Soil Irrigation Web App
+# Farm Flask: IoT-Enabled Irrigation Monitoring for The Sustainable Student Farm
 
 **Background**
 
-The web app monitors soil irrigation using a Wireless Sensor Network (WSN) built upon many ESP8266s microcontrollers. The ESPs are nodes in my network that use radio communication (ESP-NOW protocol) and interface with soil sensors gathering data on soil moisture. The user can access the data and visually monitor irrigation from a web page that is built by a web server capable of receiving and storing data from the WSN and handling user requests.
+The web app monitors soil irrigation using a Wireless Sensor Network (WSN) built upon many Arduino-ESP8266 microcontrollers. The Arduino-ESPs are nodes in my network that use radio communication (ESP-NOW protocol) and interface with soil sensors gathering data on soil moisture. The user can visually monitor irrigation from a webpage that's powered by a Python Flask server capable of receiving and storing data from the WSN and handling user requests.
 
 **Problems Addressed**
 
@@ -11,7 +11,7 @@ The web app monitors soil irrigation using a Wireless Sensor Network (WSN) built
 
 **The Hardware** 
 
-The hardware component is the WSN which communicates packets of sensor data across the field and to the web server. Each node on the WSN consists of an ESP8266 development board, a solar panel powered by a lithium ion battery, and a capacitative moisture sensor if it is a Field node. 
+The hardware component is the WSN, which communicates packets of sensor data across the field and to the web server. Each node on the WSN consists of an Arduino-ESP8266 development board, a solar panel powered by a lithium ion battery, and a capacitative moisture sensor if it is a Field node. 
 The nodes are subjected to 4 distinct roles:
 
 Field - multiple ESPs interfacing with sensors and form a star topology with the Terminal to preform many-to-one packet delivery
